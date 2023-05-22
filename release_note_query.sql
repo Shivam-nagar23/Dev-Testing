@@ -48,7 +48,7 @@ v0.6.11\n\n## Bugs\n- fix: Nats server version upgrade (#2837)\n- fix: K8s side 
 ure gap changes (#2891)\n- fix: Adding /Deleting git material reflection in workflow editor and build \u0026 deploy (#2744)\n- fix: issue resolved for notification on deployment trigger and te
 lemetry summary event (#2893)\n- fix: helm manifest output in deployment history (#2822)\n- fix: sending appName in the response of getAppWorkflow API (#2879)\n- fix: cluster not reachable han
 dling (#2872)\n- fix: bitbucket gitops config fixes (#2768)\n- fix: updated sonarqube plugin script (#2855)\n- fix: updated the description in sonarqube migration (#2853)\n- fix: External Ci T
-rigger - Won't show images for manual Cd pipelines (#2802)\n- fix: app create api bug fix if chart ref is different (#2851)\n- fix: Dockerfile git repo delete tooltip view to build config (#27
+rigger - Won''t show images for manual Cd pipelines (#2802)\n- fix: app create api bug fix if chart ref is different (#2851)\n- fix: Dockerfile git repo delete tooltip view to build config (#27
 92)\n## Enhancements\n- feat: Support of reuse container image in containers section in reference chart 4-17 (#2675)\n- feat: Added Rollout chart 4.17 and Deployment chart 1.1 with canary usin
 g flagger and Istio support (#2910)\n- feat: Codacy plugin integration (#2892)\n- feat: Semgrep plugin integration (#2877)\n- perf: Tracing observability tool integration (#2782)\n- feat: Opti
 on for changing project in Helm apps and project assignment to CLI helm apps. (#2780)\n- feat: Audit logs for resource deletion from devtron UI  (#2791)\n- feat: verify token function scope ma
@@ -173,7 +173,7 @@ sthog Event in Guided onboarding [#2228](https://github.com/devtron-labs/devtron
 ron-labs/devtron/issues/2222)\r\n- [**closed**] Chart store v2 changes [#2221](https://github.com/devtron-labs/devtron/issues/2221)\r\n- [**enhancement**] Guided Onboarding: tippy handling \u0
 026 Listing page [#2213](https://github.com/devtron-labs/devtron/issues/2213)\r\n- [**closed**] Orchestrator should be up and running without argo-cd [#2207](https://github.com/devtron-labs/de
 vtron/issues/2207)\r\n- [**closed**] Design Integration system [#2206](https://github.com/devtron-labs/devtron/issues/2206)\r\n- [**enhancement**] UserAttributes Data Entity Creation [#2198](h
-ttps://github.com/devtron-labs/devtron/issues/2198)\r\n- [**bug**] if Value of \"ENFORCER_MAX_BATCH_SIZE\" in orchestrator config-map is more than 1 than we don't get complete data in some cas
+ttps://github.com/devtron-labs/devtron/issues/2198)\r\n- [**bug**] if Value of \"ENFORCER_MAX_BATCH_SIZE\" in orchestrator config-map is more than 1 than we don''t get complete data in some cas
 es [#2189](https://github.com/devtron-labs/devtron/issues/2189)\r\n- [**enhancement**] UX ONLY: Changes and messaging corresponding to Modularization  [#2187](https://github.com/devtron-labs/d
 evtron/issues/2187)\r\n- [**enhancement**] Store Dex config in a secret [#2177](https://github.com/devtron-labs/devtron/issues/2177)\r\n- [**bug**] Deployment History - Getting failed to load 
 view after clicking back [#2176](https://github.com/devtron-labs/devtron/issues/2176)\r\n- [**bug**] AppDetails - Expanded node details collapse when data gets refreshed [#2174](https://github
@@ -203,7 +203,7 @@ cement**] CICD using Helm without gitops integration + testing (Installer) [#165
  on application startup instead of multiple builds [#1649](https://github.com/devtron-labs/devtron/issues/1649)\r\n- [**Spike**] [SPIKE] Figure out feature flag implementation for FE and BE [#
 1627](https://github.com/devtron-labs/devtron/issues/1627)\r\n- [**closed**] [Hyperion] Use new AppDetails page for Devtron Apps (Testing)#1395 [#1576](https://github.com/devtron-labs/devtron/
 issues/1576)\r\n- [**bug**] Select text is misplaced in select material of trigger page. [#1521](https://github.com/devtron-labs/devtron/issues/1521)\r\n- [**bug**] update environment window d
-oesn't move away on deleting environment [#1508](https://github.com/devtron-labs/devtron/issues/1508)\r\n- [**enhancement**][**critical**] Allow creation of service accounts via Devtron charts
+oesn''t move away on deleting environment [#1508](https://github.com/devtron-labs/devtron/issues/1508)\r\n- [**enhancement**][**critical**] Allow creation of service accounts via Devtron charts
  [#1499](https://github.com/devtron-labs/devtron/issues/1499)\r\n- [**bug**] Deployment history page gets Auto refreshed in Logs window. [#1461](https://github.com/devtron-labs/devtron/issues/
 1461)\r\n- [**enhancement**] Customise devtron-ci pods [#1455](https://github.com/devtron-labs/devtron/issues/1455)\r\n- [**bug**] External secret Issue [#1442](https://github.com/devtron-labs
 /devtron/issues/1442)\r\n- [**enhancement**] Automation of \"LinkToChartStore\" API [#1432](https://github.com/devtron-labs/devtron/issues/1432)\r\n- [**enhancement**] Hide sample app suggesti
@@ -212,8 +212,8 @@ save or cancel the repo information [#1305](https://github.com/devtron-labs/devt
 n/issues/1275)\r\n- [**enhancement**][**critical**] FEAT: Make Container registries override-able at ENV level. [#1241](https://github.com/devtron-labs/devtron/issues/1241)\r\n- [**Spike**] Gi
 thub authenticator for the token [#1104](https://github.com/devtron-labs/devtron/issues/1104)\r\n- [**bug**] FIX: Broken links of Docs in Dashboard [#1089](https://github.com/devtron-labs/devt
 ron/issues/1089)\r\n- [**enhancement**] Drop down apis for applications and environments [#1043](https://github.com/devtron-labs/devtron/issues/1043)\r\n- [**bug**] Switching Logs to Terminal 
-access doesn't works [#1031](https://github.com/devtron-labs/devtron/issues/1031)\r\n- [**bug**] Unable to setup GitOps in Minikube [#942](https://github.com/devtron-labs/devtron/issues/942)\r
-\n- [**enhancement**] Upgrade argocd version, it's still running on v1.8.1 [#924](https://github.com/devtron-labs/devtron/issues/924)\r\n- [**enhancement**] Static code analysis via Devtron [#
+access doesn''t works [#1031](https://github.com/devtron-labs/devtron/issues/1031)\r\n- [**bug**] Unable to setup GitOps in Minikube [#942](https://github.com/devtron-labs/devtron/issues/942)\r
+\n- [**enhancement**] Upgrade argocd version, it''s still running on v1.8.1 [#924](https://github.com/devtron-labs/devtron/issues/924)\r\n- [**enhancement**] Static code analysis via Devtron [#
 914](https://github.com/devtron-labs/devtron/issues/914)\r\n- [**bug**] App details page shows wrong user in deployed by section [#845](https://github.com/devtron-labs/devtron/issues/845)\r\n-
  [**enhancement**] Upgrade the Issue Template to use GitHub Issue forms 📜 [#831](https://github.com/devtron-labs/devtron/issues/831)\r\n- [**enhancement**] Embedding DevtronCD UI in an app [#
 767](https://github.com/devtron-labs/devtron/issues/767)\r\n- [**enhancement**] Remove dependency on Chart Museum [#743](https://github.com/devtron-labs/devtron/issues/743)\r\n- [**bug**] Dash
@@ -324,7 +324,7 @@ rom release manifest: unable to recognize \"\": no matches for kind \"CronJob\" 
 alse,"prerequisiteMessage":"","tagLink":"https://github.com/devtron-labs/devtron/releases/tag/v0.4.24"},{"tagName":"v0.4.23","releaseName":"v0.4.23","createdAt":"2022-07-08T13:46:00Z","publish
 edAt":"2022-07-08T15:35:10Z","body":"- [**enhancement**][**Task**][**testing**] Automation of APIs in  HelmAppDeployment Flow(AppStoreDiscoverRouter)(3 APIs) [#1969](https://github.com/devtron
 -labs/devtron/issues/1969)\n- [**enhancement**][**Task**][**testing**] Automation of APIs in Helm Apps Deployment(ServerRouter) [#1968](https://github.com/devtron-labs/devtron/issues/1968)\n- 
-[**enhancement**] Delete workflow when user deletes CI pipeline | Rename 'Global variables' to 'System variables' [#1961](https://github.com/devtron-labs/devtron/issues/1961)\n- [**enhancement
+[**enhancement**] Delete workflow when user deletes CI pipeline | Rename ''Global variables'' to ''System variables'' [#1961](https://github.com/devtron-labs/devtron/issues/1961)\n- [**enhancement
 **][**testing**] OSS Installation Automation Failure Fixes [#1959](https://github.com/devtron-labs/devtron/issues/1959)\n- [**bug**] Not able to delete ci-pipeline [#1951](https://github.com/d
 evtron-labs/devtron/issues/1951)\n- [**bug**] Validation required for reference template before push to git repo.  [#1950](https://github.com/devtron-labs/devtron/issues/1950)\n- [**bug**] Edi
 t group name showing in multi-chart deployment flow [#1943](https://github.com/devtron-labs/devtron/issues/1943)\n- [**enhancement**] Custom values: Save option from deploy chart/ Update and d
@@ -365,8 +365,8 @@ ge":"","tagLink":"https://github.com/devtron-labs/devtron/releases/tag/v0.4.18"}
  Production Issues Investigation - Deployment inconsistent for some apps. [#1907](https://github.com/devtron-labs/devtron/issues/1907)\n- [**bug**] FE bugs [#1902](https://github.com/devtron-l
 abs/devtron/issues/1902)\n- [**bug**] CI Plugin \u003e Skip/Trigger condition validation [#1901](https://github.com/devtron-labs/devtron/issues/1901)\n- [**bug**] Deployments not flowing into 
 Lens DB [#1881](https://github.com/devtron-labs/devtron/issues/1881)\n- [**enhancement**] UX: Make custom values feature discoverable [#1870](https://github.com/devtron-labs/devtron/issues/187
-0)\n- [**closed**] Cd pipeline status - Helm app status update periodically [#1654](https://github.com/devtron-labs/devtron/issues/1654)\n- [**bug**] Copy/paste from terminal doesn't always wo
-rk as expected | Incorrect date [#1642](https://github.com/devtron-labs/devtron/issues/1642)\n- [**bug**] GitOps validate button shows that it's also saving the configuration but it doesn't [#
+0)\n- [**closed**] Cd pipeline status - Helm app status update periodically [#1654](https://github.com/devtron-labs/devtron/issues/1654)\n- [**bug**] Copy/paste from terminal doesn''t always wo
+rk as expected | Incorrect date [#1642](https://github.com/devtron-labs/devtron/issues/1642)\n- [**bug**] GitOps validate button shows that it''s also saving the configuration but it doesn''t [#
 1592](https://github.com/devtron-labs/devtron/issues/1592)\n","prerequisite":false,"prerequisiteMessage":"","tagLink":"https://github.com/devtron-labs/devtron/releases/tag/v0.4.17"},{"tagName"
 :"v0.4.16","releaseName":"v0.4.16","createdAt":"2022-06-21T08:45:42Z","publishedAt":"2022-06-21T09:13:32Z","body":"- [**enhancement**][**Task**] Automation upgrade for oss-installation support
  [#1897](https://github.com/devtron-labs/devtron/issues/1897)\n- [**enhancement**] Fetch PostHog URL from Telemetry micro service [#1872](https://github.com/devtron-labs/devtron/issues/1872)\n
